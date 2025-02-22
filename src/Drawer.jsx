@@ -22,6 +22,7 @@ import ShopingCartIcon from '@mui/icons-material/ShoppingCart';
 import LogoutIcon from '@mui/icons-material/Logout';
 import Button from '@mui/material/Button';
 import HomeIcon from '@mui/icons-material/Home';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
 
 const drawerWidth = 240;
 
@@ -85,6 +86,7 @@ const menuItems = [
   { text: 'Home', icon: <HomeIcon />, route: '/' },
   { text: 'Shop', icon: <ShopingCartIcon />, route: '/shop' },
   { text: 'User', icon: <PersonIcon />, route: '/user' },
+  {text : 'Graph', icon: <ShowChartIcon/> , route: '/graph'},
 ];
 
 

@@ -6,6 +6,7 @@ import Shop from './Shop.jsx';
 import Home from './Home.jsx';
 import Login from './pages/Login.jsx';
 import Signup from './pages/Signup.jsx';
+import Graph from './Graph.jsx';
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
                   <Route path="/" element={<Home />} />
                   <Route path="/user" element={<User />} />
                   <Route path="/shop" element={<Shop />} />
+                  <Route path="/graph" element={<Graph />} />
                 </Routes>
               </PersistentDrawerLeft>
             ) : (
